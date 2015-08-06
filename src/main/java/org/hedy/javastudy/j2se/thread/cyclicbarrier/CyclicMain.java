@@ -12,7 +12,7 @@ class CyclicMain {
 
     public static void main(String[] args) {
         int num = 5;
-        CyclicBarrier cyclicBarrier = new CyclicBarrier(5);
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(5);//第二个参数 是线程 就是所有子线程完成任务后会开始执行他 这里就不演示了
         ExecutorService executorService = Executors.newCachedThreadPool();
         for(int i=0;i<num;i++){
             executorService.execute(new Worker(cyclicBarrier));
