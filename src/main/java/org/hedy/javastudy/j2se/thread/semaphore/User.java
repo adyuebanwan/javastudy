@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * Created by hedongyu on 2015/8/6.
  * 799374340@qq.com
  */
-public class User implements Runnable {
+class User implements Runnable {
     private Semaphore semaphore;
 
     public User(Semaphore semaphore) {
