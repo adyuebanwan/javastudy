@@ -1,4 +1,4 @@
-package org.hedy.javastudy.j2se.collection.concurrent.blockqueue;
+package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.arrayblockingqueue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
@@ -17,6 +17,7 @@ public class Remover<T> implements Runnable {
     public void run() {
         try {
             while (true){
+                //出队
                 T v = blockingQueue.take();
                 System.out.println(Thread.currentThread().getName()+"-remove-"+v);
                 TimeUnit.SECONDS.sleep(1);

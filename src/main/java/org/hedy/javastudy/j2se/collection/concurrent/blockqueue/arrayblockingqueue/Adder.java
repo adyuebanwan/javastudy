@@ -1,4 +1,4 @@
-package org.hedy.javastudy.j2se.collection.concurrent.blockqueue;
+package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.arrayblockingqueue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
@@ -19,6 +19,7 @@ public class Adder<T> implements Runnable {
             int i=0;
             while (true){
                 i=i+1;
+                //入队
                 blockingQueue.put((T)(""+i));
                 System.out.println(Thread.currentThread().getName() + "-add-" + i);
                 TimeUnit.SECONDS.sleep(1);
