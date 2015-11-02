@@ -1,4 +1,6 @@
-package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.arrayblockingqueue;
+package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.array;
+
+import org.hedy.javastudy.j2se.collection.concurrent.blockqueue.thread.Adder;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
