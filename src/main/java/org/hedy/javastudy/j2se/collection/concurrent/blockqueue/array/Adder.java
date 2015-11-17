@@ -1,4 +1,4 @@
-package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.arrayblockingqueue;
+package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.array;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
