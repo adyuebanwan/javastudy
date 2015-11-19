@@ -1,6 +1,5 @@
 package org.hedy.javastudy.j2se.collection.concurrent.blockqueue.delay;
 
-import java.util.Date;
 import java.util.concurrent.DelayQueue;
 
 /**
@@ -8,10 +7,10 @@ import java.util.concurrent.DelayQueue;
  */
 public class DelayTest {
     public static void main(String[] args) {
-        DelayQueue<Item> delayQueue = new DelayQueue<Item>();
-        delayQueue.add(new Item("1",1));
-        delayQueue.add(new Item("2",3));
-        delayQueue.add(new Item("3",24));
+        DelayQueue<DelayItem> delayQueue = new DelayQueue<DelayItem>();
+        delayQueue.add(new DelayItem("1",1));
+        delayQueue.add(new DelayItem("2",3));
+        delayQueue.add(new DelayItem("3",24));
 
 
         Thread thread = new Thread(new DelayRunnable(delayQueue));

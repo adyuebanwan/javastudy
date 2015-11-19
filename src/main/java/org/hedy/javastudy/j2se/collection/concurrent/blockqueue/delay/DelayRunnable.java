@@ -6,9 +6,9 @@ import java.util.concurrent.DelayQueue;
  * Created by Administrator on 2015/11/17.
  */
 public class DelayRunnable implements Runnable {
-    private DelayQueue<Item> delayQueue;
+    private DelayQueue<DelayItem> delayQueue;
 
-    public DelayRunnable(DelayQueue<Item> delayQueue) {
+    public DelayRunnable(DelayQueue<DelayItem> delayQueue) {
         this.delayQueue = delayQueue;
     }
 
@@ -16,7 +16,7 @@ public class DelayRunnable implements Runnable {
     public void run() {
         try {
             while (true){
-                Item item = delayQueue.take();
+                DelayItem item = delayQueue.take();
                 System.out.println(item.getName());
             }
         } catch (InterruptedException e) {
