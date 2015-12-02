@@ -16,8 +16,8 @@ public class ThreadPoolRunnable implements Runnable {
     public void run() {
         synchronized (this){
             try {
-                System.out.println("干活的线程"+name);
-                TimeUnit.SECONDS.sleep(2);
+                System.out.println("干活的"+name);
+                TimeUnit.SECONDS.sleep(5);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
