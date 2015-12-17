@@ -27,6 +27,7 @@ class ThreadLocalMain {
     public static int get(){
         return threadLocal.get();
     }
+    //一旦remove掉后 可能就为空 那么就会重新取 initalValue来设置值
     public static void remove(){
         threadLocal.remove();
     }

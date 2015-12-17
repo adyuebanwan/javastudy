@@ -1,6 +1,5 @@
 package org.hedy.javastudy.j2se.thread.semaphore;
 
-import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
