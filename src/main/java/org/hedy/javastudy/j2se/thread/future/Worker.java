@@ -9,13 +9,16 @@ import java.util.concurrent.TimeUnit;
  * 799374340@qq.com
  */
 class Worker implements Callable<String> {
+    private int second;
+
+    public Worker(int second) {
+        this.second = second;
+    }
+
     @Override
     public String call() throws Exception {
-        long s = new Random().nextInt(5);
-        System.out.println(s);
-        TimeUnit.SECONDS.sleep(s);
+        TimeUnit.SECONDS.sleep(second);
         String name = Thread.currentThread().getName();
-        System.out.println(name +"有返回");
         return name;
     }
 }
