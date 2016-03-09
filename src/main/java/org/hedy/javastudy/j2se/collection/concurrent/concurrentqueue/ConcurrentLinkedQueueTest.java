@@ -3,7 +3,7 @@ package org.hedy.javastudy.j2se.collection.concurrent.concurrentqueue;
 import java.util.concurrent.*;
 
 /**
- * Created by hzhedongyu on 2015/11/23.
+ * Created by hzwww.magicalcoder.com on 2015/11/23.
  * 只有add poll offer peek 这样单独调用 才是线程安全的 但是多个一起调用 可就不安全了
  * 例如 !queue.isEmpty() System.out.println(queue.poll()); 这两个方法中间的时刻就可能被竞争
  *在使用ConcurrentLinkedQueue时要注意，如果直接使用它提供的函数，比如add或者poll方法，这样我们自己不需要做任何同步。

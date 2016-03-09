@@ -3,7 +3,7 @@ package org.hedy.javastudy.j2se.thread.pool;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by hzhedongyu on 2015/10/30.
+ * Created by hzwww.magicalcoder.com on 2015/10/30.
  */
 public class ThreadPoolRunnable implements Runnable {
     private String name;

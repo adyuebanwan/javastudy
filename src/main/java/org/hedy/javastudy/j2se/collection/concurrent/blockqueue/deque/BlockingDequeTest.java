@@ -4,7 +4,7 @@ import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
- * Created by hzhedongyu on 2015/11/19.
+ * Created by hzwww.magicalcoder.com on 2015/11/19.
  */
 public class BlockingDequeTest {
     public static void main(String[] args) throws InterruptedException {

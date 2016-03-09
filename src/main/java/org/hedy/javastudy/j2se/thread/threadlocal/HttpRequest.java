@@ -3,7 +3,7 @@ package org.hedy.javastudy.j2se.thread.threadlocal;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by hedongyu on 2015/8/7.
+ * Created by www.magicalcoder.com on 2015/8/7.
  * 799374340@qq.com
  */
 class HttpRequest implements Runnable{

@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by hedongyu on 2015/8/7.
+ * Created by www.magicalcoder.com on 2015/8/7.
  * 799374340@qq.com
  *
  如果我们把每个线程理解成 一个个门，门都需要上锁，

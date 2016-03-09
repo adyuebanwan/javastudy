@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by hzhedongyu on 2015/12/29.
+ * Created by hzwww.magicalcoder.com on 2015/12/29.
  */
 public class FixThreadPoolTest {
     public static void main(String[] args) {

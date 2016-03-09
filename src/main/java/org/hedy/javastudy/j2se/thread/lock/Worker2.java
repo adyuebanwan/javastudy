@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by hedongyu on 2015/8/7.
+ * Created by www.magicalcoder.com on 2015/8/7.
  * 799374340@qq.com
  */
 class Worker2 implements Runnable{

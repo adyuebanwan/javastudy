@@ -4,7 +4,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by hzhedongyu on 2015/10/29.
+ * Created by hzwww.magicalcoder.com on 2015/10/29.
  */
 public class Adder<T> implements Runnable {
     private BlockingQueue<T> blockingQueue;

@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by hedongyu on 2015/8/6.
+ * Created by www.magicalcoder.com on 2015/8/6.
  * 799374340@qq.com
  */
 class User implements Runnable {

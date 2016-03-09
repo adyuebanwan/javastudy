@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Created by hzhedongyu on 2015/10/30.
+ * Created by hzwww.magicalcoder.com on 2015/10/30.
  */
 public class ConcurrentHashMapTest {
     private static ConcurrentHashMap<String,String> concurrentHashMap = new ConcurrentHashMap<String, String>();

@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Created by hedongyu on 2015/8/7.
+ * Created by www.magicalcoder.com on 2015/8/7.
  * 799374340@qq.com
  * 线程本地化存储 多个线程调用threadlocal 其实他会为每个线程创建一份单独的空间 这样多个线程互不干涉
  * ThreadLocal是解决线程安全问题一个很好的思路，它通过为每个线程提供一个独立的变量副本解决了变量并发访问的冲突问题。

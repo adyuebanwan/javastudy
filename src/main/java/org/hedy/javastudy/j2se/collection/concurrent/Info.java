@@ -1,7 +1,7 @@
 package org.hedy.javastudy.j2se.collection.concurrent;
 
 /**
- * Created by hzhedongyu on 2015/11/23.
+ * Created by hzwww.magicalcoder.com on 2015/11/23.
  * 队列
  场景
  优点

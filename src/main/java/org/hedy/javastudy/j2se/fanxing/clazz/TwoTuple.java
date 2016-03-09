@@ -1,7 +1,7 @@
 package org.hedy.javastudy.j2se.fanxing.clazz;
 
 /**
- * Created by hedongyu on 2015/9/2.
+ * Created by www.magicalcoder.com on 2015/9/2.
  * 799374340@qq.com
  */
 public class TwoTuple<T,S> {
